@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: helvetica;
+ }
+
+ section {
+    width: 50vmin;
+ }
+
+ header {
+    height: 40px;
+    background-color: #9DC284;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+ }
+
+ input {
+    width: 39vmin;
+    height: 40px;
+    font-size: 18px;
+ }
+
+ button {
+    width: 10vmin;
+    height: 40px;
+ }
+
+ ul button {
+    background-color: #D16D6A;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-right: 20px;
+ }
+
+ ul {
+    color: #F2A74B;
+    list-style: none;
+ }
+ 
+ li {
+    margin: 10px 0;
+ }
+
