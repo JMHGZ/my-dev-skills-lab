@@ -28,18 +28,27 @@
     width: 39vmin;
     height: 40px;
     font-size: 18px;
+    border: solid;
+    color: #9DC284;
+    padding-bottom: 5px;
  }
 
  button {
-    width: 10vmin;
+    width: 10.5vmin;
     height: 40px;
+    border: solid;
+    background-color: white;
+    color: #9DC284;
+    margin: 0;
+    padding: 0;
+
  }
 
  ul button {
     background-color: #D16D6A;
     color: white;
     width: 20px;
-    height: 20px;
+    height: 17px;
     border: none;
     margin-right: 20px;
  }
@@ -48,8 +57,16 @@
     color: #F2A74B;
     list-style: none;
  }
- 
+
  li {
     margin: 10px 0;
  }
 
+ #addSkill {
+     font-size: 12px;
+ }
+
+ .txt-btn {
+     margin: 0 auto;
+     padding: 0;
+ }
